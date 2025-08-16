@@ -14,6 +14,9 @@ Number of characters
 file reading, counting statistics, and printing results.
 7. The program must handle empty folders or missing files gracefully.
 8. Use only the built-in modules/libraries.
+```
+py analizer.py
+```
 ## Docs used
 - https://www.geeksforgeeks.org/python/python-os-scandir-method/
 - https://docs.python.org/3/library/pathlib.html#pattern-language
