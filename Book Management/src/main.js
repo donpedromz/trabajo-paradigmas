@@ -63,7 +63,7 @@ const readBooks = async (path) => {
         return [];
     }
 };
-const path = "data.txt";
+const path = "data.json";
 const main = async () => {
     let exec = true;
     while (exec) {
