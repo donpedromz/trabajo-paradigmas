@@ -1,6 +1,11 @@
 package domain;
 
-public class Product implements Comparable<Object>{
+/**
+ * @author donpedromz
+ * @version 1.0
+ * This class represents a product in the store.
+ */
+public class Product{
     private String name;
     private String category;
     private double price;
@@ -42,6 +47,17 @@ public class Product implements Comparable<Object>{
         return stock;
     }
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", category='" + category + '\'' +
+                ", price=" + price +
+                ", stock=" + stock +
+                ", unitsSold=" + unitsSold +
+                '}';
+    }
+
     public void setStock(int stock) {
         this.stock = stock;
     }
@@ -52,11 +68,5 @@ public class Product implements Comparable<Object>{
 
     public void setUnitsSold(int unitsSold) {
         this.unitsSold = unitsSold;
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        Product p = (Product) o;
-        return this.name.compareTo(p.getName());
     }
 }

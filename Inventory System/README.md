@@ -15,3 +15,7 @@ stock is below 5 units.
 4. Print the category with the highest total revenue.
 5. Return a list of product names sorted by price (descending), then by stock
 (ascending) if prices are equal.
+## Docs used
+- https://www.geeksforgeeks.org/java/stream-filter-java-examples/
+- https://www.geeksforgeeks.org/java/for-each-loop-in-java/
+- https://www.baeldung.com/java-8-comparator-comparing
