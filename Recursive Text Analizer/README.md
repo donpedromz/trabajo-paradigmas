@@ -14,6 +14,7 @@ Number of characters
 file reading, counting statistics, and printing results.
 7. The program must handle empty folders or missing files gracefully.
 8. Use only the built-in modules/libraries.
+### Running the program
 ```
 py analizer.py
 ```
